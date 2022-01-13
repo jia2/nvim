@@ -9,7 +9,7 @@ utils.safe_require('nvim-treesitter.configs', function(treesitter)
     sync_install = false,
 
     -- List of parsers to ignore installing
-    ignore_install = {},
+    ignore_install = {'jsonc', 'fusion'},
 
     playground = {
       enable = true,
